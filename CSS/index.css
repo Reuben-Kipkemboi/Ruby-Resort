@@ -181,6 +181,7 @@ hr{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 3%;
 }
 .bedroom p{
     font-size: 5vh;
@@ -197,4 +198,10 @@ hr{
     font-style: italic;
     font-weight: bold;
     color: rgb(220, 205, 184);
+}
+.dinning{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
 }
