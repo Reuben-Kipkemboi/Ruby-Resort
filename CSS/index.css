@@ -203,5 +203,43 @@ hr{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 3%;
 
+}
+.dinning p{
+    color: rgb(233, 139, 45);
+    font-size: 6vh;
+    font-weight: bold;
+    margin-top: 13%;
+    margin-left: 10%;
+    width: 30%;
+
+}
+.dinning small{
+    margin-left: -35%;
+    margin-top: 17%;
+    width: 30%;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+.swim{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.swim .desc{
+    width: 35%;
+    margin-top: 10%;
+}
+.desc p{
+    font-size: 6vh;
+    font-weight: bold;
+    color: white;
+}
+.desc small{
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(220, 205, 184);
 }
