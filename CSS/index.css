@@ -143,22 +143,32 @@ hr{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 3%;
 }
 
-.beds p{
-    font-size: 7vh;
+.beds .guest{
+    font-size: 6vh;
     color: white;
-    margin-top: 20%;
+    margin-top: 15%;
+    margin-left: 10%;
+    width: 30%;
 
 }
-.beds p span{
+.beds .king{
+    margin-top: 18%;
+    width: 30%;
+    margin-left: -30%;
+    color: rgb(236, 224, 214);
+    font-weight: bold;
+    font-style: italic;
+}
+.beds .guest span{
     color: darksalmon;
     font-style: italic;
 }
-.beds p span::after{
+.beds .guest span::after{
     content: "";
-    border: 2px dashed salmon;
-    
+
 }
 .container img{
     width: 50%;
@@ -166,4 +176,25 @@ hr{
     object-fit: cover;
     border-radius: 10px;
     border: 2px solid white;
+}
+.bedroom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.bedroom p{
+    font-size: 5vh;
+    font-weight : bold;
+    color: white;
+    margin-top: 15%;
+    margin-left: 3%;
+    width: 40%;
+}
+.bedroom small{
+    margin-top: 18%;
+    margin-left: -50%;
+    width: 40%;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(220, 205, 184);
 }
